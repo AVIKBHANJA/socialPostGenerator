@@ -35,7 +35,17 @@ const PLATFORM_SPECS = {
     maxLength: 65536,
     features: ['emojis', 'formatting'],
     style: 'direct and personal'
-  }
+  },
+  facebook: {
+    maxLength: 63206,
+    features: ['hashtags', 'mentions', 'links'],
+    style: 'engaging and shareable'
+  },
+  YouTube: {
+    maxLength: 5000,
+    features: ['hashtags', 'mentions', 'links'],
+    style: 'visual and informative'
+  },
 };
 
 export async function POST(request) {

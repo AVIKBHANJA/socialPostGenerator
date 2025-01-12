@@ -22,6 +22,8 @@ export function SeoForm({ onSubmit, isLoading }) {
     { id: 'threads', name: 'Threads', maxLength: 500 },
     { id: 'discord', name: 'Discord', maxLength: 2000 },
     { id: 'whatsapp', name: 'WhatsApp', maxLength: 65536 },
+    { id: 'facebook', name: 'Facebook', maxLength: 63206 },
+    { id: 'YouTube', name: 'YouTube', maxLength: 5000 },
   ];
 
   const handleSubmit = async (e) => {
